@@ -1,0 +1,66 @@
+/* rest padrão de navegadores */
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'tahoma';
+}
+
+/* estilizando as seções com espaçamento inter e centralizar */
+
+.section{
+
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+/* estilizando primeira seção */
+
+.section-one{
+
+    background-color: #afddfb;
+    height: 65%;
+}
+
+.section-one p{
+
+    text-align: center;
+    margin: auto 130px;
+
+}
+
+.section-one img{
+
+    width: 190px;
+    margin-bottom: 20px;
+}
+
+.section-one a{
+
+    text-decoration: none;
+    background-color: #85c8ec;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px ;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+/* inserindo :hover nos links da primeira seção */
+
+.section-one a:hover{
+    color: #000000;
+}
+
+/* estilizando imagem da segunda seção*/
+
+.section-two img{
+
+    border-radius: 5px;
+
+}
+
+
