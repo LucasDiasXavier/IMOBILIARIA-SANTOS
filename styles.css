@@ -1,66 +1,239 @@
-/* rest padrão de navegadores */
+/* Seletor Universal: Aplica-se a TODOS os elementos na página */
 
 *{
 
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'tahoma';
+    font-family: tahoma;
 }
 
-/* estilizando as seções com espaçamento inter e centralizar */
+/* aplicando estilo nas seções com o seletor de classe */
 
 .section{
 
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
-    padding: 30px 0;
-
+    height: 100%;
 }
 
-/* estilizando primeira seção */
+/* aplicando estilo em todos os paragrafos com o seletor de tag */
 
-.section-one{
+p{
+
+    font-size: 18px;
+    line-height: 42px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* estilizando titulo e subtitulo da seção três */
+
+h1{
+
+    font-size: 32px;
+    line-height: 42px;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+}
+
+h2{
+
+    font-size: 23px;
+    color: #1c81c1;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+/* estilo global com o seletor de tag */
+
+h3{
+
+    font-size: 25px;
+    line-height: 42px;
+}
+
+/* estilizando a primeira seção */
+
+.one{
 
     background-color: #afddfb;
-    height: 65%;
+    
 }
 
-.section-one p{
-
-    text-align: center;
-    margin: auto 130px;
-
-}
-
-.section-one img{
+.one img{
 
     width: 190px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    
 }
 
-.section-one a{
+.one a{
 
+    font-size: 16px;
     text-decoration: none;
-    background-color: #85c8ec;
+    background-color: #5eabdf;
     color: #ffffff;
-    border-radius: 15px;
-    padding: 10px ;
-    justify-content: space-between;
-    gap: 25px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+   
 }
 
-/* inserindo :hover nos links da primeira seção */
+/* aplicando animção nos links da primeira selção */
 
-.section-one a:hover{
-    color: #000000;
+.one a:hover{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #02121d;
+    opacity: 0.1;
+    
 }
 
-/* estilizando imagem da segunda seção*/
+/* estilizando imagem da segunda seção */
 
-.section-two img{
+.two img{
 
     border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* estilizando imagens da terceira e quinta seção através do seltor de classe */
+
+.image-section{
+
+    width: 450px;
+}
+
+/* destacando o text escolhido através do span dentro das classes */
+
+.three span, .five span{
+
+    color: #1d81c0;
+    font-weight: bold;
+}
+
+/* estilizando a seção quatro */
+
+.four{
+
+    background-color: #1d81c0;
+}
+
+.four p{
+
+    width: 700px;
+    color: #ffffff;
+}
+.four span, .six span{
+
+    color: #fff81b;
+    font-weight: bold;
+}
+
+.four h3{
+
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* estilizando linsta não ordenada e seus itens atraves do seletor e tags e seletor de classe
+ */
+
+.list-service{
+
+    width: 135px;
+    margin: 40px auto;
+}
+
+.list-service li{
+
+    font-size: 22px;
+    line-height: 52px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 35px;
+
 
 }
 
+/* estilizando subtitulo da seção cinco */
+
+.five h3{
+
+    color: #1c81c1;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* estilizando a seção seis */
+
+.six{
+
+    background-color: #1c81c1;
+    height: 80vh;
+}
+
+.six h3{
+
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.six p{
+
+    margin-top: 20px;
+    background-color: #1d1d1d;
+    border-radius: 25px;
+    padding: 20px auto;
+    color: #ffffff;
+    width: 80%;
+}
+iframe{
+
+    width: 750px;
+    height: 350px;
+}
+
+.contact-link{
+
+    margin: 30px auto;
+    line-height: 30px;
+    text-decoration: none;
+    width: 15vw;
+    
+    
+    
+}
+
+.contact-link li{
+
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 2px 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.one-link{
+
+    width: 15vw;
+}
+
+.two-link{
+
+    width: 13vw;
+    margin: 0 auto;
+}
+
+.three-link{
+
+    width: 11vw;
+    margin: 0 auto;
+}
 
